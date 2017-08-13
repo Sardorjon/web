@@ -5,15 +5,19 @@ gulp.task('html', function( ){
     console.log('something useful created to ur html file.');
 });
 
-gulp.task('styles', function (){
-  return gulp.src('.app/assets/styles/styles.css')
-    .pipe(gulp.dest('assets/temp/styles'));
+gulp.task('styles', function() {
+  return gulp.src('./app/assets/styles/styles.css')
+    /*.pipe(postcss([cssvars, nested, autoprefixer]))*/
+    .pipe(gulp.dest('./app/temp/styles'));
 });
-gulp.task('watch', function(){
-  watch('.assets/index.html', function(){
+gulp.task('watch', function() {
+
+  watch('./app/index.html', function() {
     gulp.start('html');
   });
-  watch('assets/styles/**/*.css', function(){
+
+  watch('./app/assets/styles/**/*.css', function() {
     gulp.start('styles');
   });
+
 });
