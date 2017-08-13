@@ -6,7 +6,7 @@ gulp.task('html', function( ){
 });
 
 gulp.task('styles', function (){
-  return gulp.src('./assets/styles/styles.css')
+  return gulp.src('.app/assets/styles/styles.css')
     .pipe(gulp.dest('assets/temp/styles'));
 });
 gulp.task('watch', function(){
