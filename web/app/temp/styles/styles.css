@@ -1,0 +1,11 @@
+
+@import "base/_global";
+h1 {
+  font-size: 28px;
+  color: #2f5572;
+  -webkit-columns: 300px 2;
+          columns: 300px 2;
+}
+.box a {
+    display: block;
+  }

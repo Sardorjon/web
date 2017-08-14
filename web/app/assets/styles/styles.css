@@ -1,5 +1,13 @@
 
 @import "base/_global";
+$mainBlue:#2f5572;
 h1 {
-  font-size: 26px;
+  font-size: 28px;
+  color: $mainBlue;
+  columns: 300px 2;
+}
+.box {
+  a {
+    display: block;
+  }
 }
