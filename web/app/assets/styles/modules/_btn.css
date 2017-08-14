@@ -1,0 +1,7 @@
+.btn {
+  background-color: darkorange;
+  color: #fff;
+  font-size: 2rem;
+  padding: .7rem 1.3rem;
+  display: inline-block;
+}

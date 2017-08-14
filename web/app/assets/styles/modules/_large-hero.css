@@ -1,0 +1,26 @@
+.large-hero {
+  position: relative;
+&__text {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   width: 100%;
+   text-align: center;
+  }
+&__title {
+    color: darkorange;
+    font-size: 5rem;
+    max-width: 85rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+
+  }
+&__subtitle {
+    color: darkorange;
+    font-size: 4rem;
+    margin: 0 0 4rem 0;
+  }
+
+}
