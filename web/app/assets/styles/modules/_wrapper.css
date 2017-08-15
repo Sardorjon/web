@@ -4,4 +4,20 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
+  &--image {
+    margin-bottom: .3rem;
+
+    @mixin 4Small {
+      margin-bottom: .6rem;
+    }
+  }
+
+  &--medium {
+    max-width: 930px;
+  }
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
