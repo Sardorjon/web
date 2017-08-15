@@ -19,20 +19,25 @@
 <nav>
   <ul>
     <li><a href="#Home">Bosh sahifa</a></li>
-    <li><a href="#">Kurslar</a></li>
-    <li><a href="#">Jamoa</a></li>
-    <li><a href="#">Tadbirlar</a></li>
-    <li><a href="#">Bazzar</a></li>
+    <li><a href="#Kurslar">Kurslar</a></li>
+    <li><a href="#Jamoa">Jamoa</a></li>
+    <li><a href="#Tadbirlar">Tadbirlar</a></li>
+    <li><a href="#Bazzar">Bazzar</a></li>
   </ul>
 </nav>
 
 </header>
 <div class="large-hero">
-  <img src="assets/images/child-learning.jpg" alt="young child is learning alone.">
+  <picture>
+    <source srcset="assets/images/child-learning-large.jpg 1820w, assets/images/child-learning-large-hi-dpi.jpg 3640w" media="(min-width:1300px)">
+    <source srcset="assets/images/child-learning-medium.jpg 1200w, assets/images/child-learning-medium-hi-dpi.jpg 2400w" media="(min-width:950px)">
+    <source srcset="assets/images/child-learning-small.jpg 1040w, assets/images/child-learning-small-hi-dpi.jpg 2080w " media="(min-width:600px)">
+    <img srcset="assets/images/child-learning-smaller.jpg 650w, assets/images/child-learning-smaller-hi-dpi.jpg 1800w" alt="young child is learning alone.">
+  </picture>
   <div class="large-hero__text">
     <h1 class="large-hero__title"><strong>Kuchli xoxish</strong> muvaffaqiyatlaringiz sari <strong>birinchi qadam.</strong></h1>
     <h2 class="large-hero__subtitle">Orzularingizni haqiqatga aylantiring!</h2>
-    <a href="#" class="btn">Harakatni Bugun Boshlang!</a>
+    <p><a href="#" class="btn">Harakatni Bugun Boshlang!</a></p>
   </div>
 </div>
 <hr>

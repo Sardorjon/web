@@ -1,7 +1,8 @@
 .btn {
-  background-color: #d59541;
+  background-color: $mnorange;
   color: #fff;
-  font-size: 2rem;
-  padding: .7rem 1.3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: .5rem 1.3rem;
   display: inline-block;
 }

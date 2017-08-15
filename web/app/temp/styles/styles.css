@@ -484,24 +484,59 @@ img{
 
 .large-hero__title {
     color: darkorange;
-    font-size: 5rem;
-    max-width: 85rem;
+    font-size: 1.5rem;
+    max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
+  }
+
+@media (min-width: 320px) {
+
+.large-hero__title {
+      font-size: 2.2rem;
+      max-width: 50rem
+
+  }
+  }
+
+@media (min-width: 750px) {
+
+.large-hero__title {
+      font-size: 3.5rem;
+      max-width: 60rem
+
+  }
+  }
+
+@media (min-width: 1100px) {
+
+.large-hero__title {
+      font-size: 5rem;
+      max-width: 85rem
+
+  }
   }
 
 .large-hero__subtitle {
     color: darkorange;
-    font-size: 4rem;
-    margin: 0 0 4rem 0;
+    font-size: 1.3rem;
+    margin: 0 0 3rem 0;
+  }
+
+@media (min-width: 320px) {
+
+.large-hero__subtitle {
+      font-size: 3.3rem
+  }
   }
 
 .btn {
   background-color: darkorange;
   color: #fff;
-  font-size: 2rem;
-  padding: .7rem 1.3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: .5rem 1.3rem;
   display: inline-block;
 }
