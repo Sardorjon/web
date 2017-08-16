@@ -662,6 +662,11 @@ img{
   }
   }
 
+.row {
+padding-left: 2px;
+padding-right: 2px;
+}
+
 .row::after {
     content:"";
     clear: both;

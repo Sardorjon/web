@@ -1,6 +1,7 @@
 .row {
   @mixin clearfix;
-
+padding-left: 2px;
+padding-right: 2px;
   &--gutters {
     margin-right:-50px;
     margin-left: -5px;
