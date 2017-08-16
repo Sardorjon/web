@@ -1,0 +1,11 @@
+.section-spacing {
+  padding: .5rem 0;
+
+  @mixin 4Small {
+    padding: 2rem 0;
+  }
+  @mixin 4Large {
+    padding: 3rem 0;
+  }
+  
+}

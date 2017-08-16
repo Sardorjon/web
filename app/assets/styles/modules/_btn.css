@@ -1,0 +1,18 @@
+.btn {
+  background-color: $mnorange;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: .6rem 1.3rem;
+  display: inline-block;
+
+  @mixin 4Small {
+    font-size: 1.6rem;
+    padding: .9rem 1.7rem;
+  }
+
+  @mixin 4Large {
+    font-size: 2.2rem;
+    padding: 1.2rem 2.1rem;
+  }
+}
