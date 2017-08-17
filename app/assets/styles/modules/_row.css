@@ -17,15 +17,23 @@ padding-right: 2px;
   }
 
   &__medium-3--larger {
-    width: 30%;
+    width: 45%;
+
+    @mixin 4Large {
+      width: 30%;
+    }
   }
+
 
   &__medium-9 {
       float: left;
       width: 75%;
   }
   &__medium-9--smaller {
-    width: 70%;
+    width: 55%;
+    @mixin 4Large {
+      width: 70%;
+    }
   }
 }
 }

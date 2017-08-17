@@ -1,12 +1,22 @@
 .headline {
   font-weight: 600;
   color: $mnblue;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-align: center;
 
 
   @mixin 4Small {
-    font-size: 4rem;
+    font-size: 2.8rem;
+    margin: 0 0 1.6rem 0;
+  }
+
+  @mixin 4Medium {
+    font-size: 3.5rem;
+    margin: 0 0 2rem 0;
+  }
+  @mixin 4Large {
+    font-size: 4.4rem;
+    margin: 0 0 3rem 0;
   }
   &__b-margin-sm {
     margin-bottom: .5em;

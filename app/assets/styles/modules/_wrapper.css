@@ -6,13 +6,6 @@
   margin-left: auto;
   margin-right: auto;
 
-  &--image {
-    margin-bottom: 5px;
-
-    @mixin 4Medium {
-      margin-bottom: 0px;
-    }
-  }
 
   &--medium {
     max-width: 930px;

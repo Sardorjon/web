@@ -15,16 +15,23 @@
   }
 &__title {
     color: darkorange;
-    font-size: 2.2rem;
+    font-size: 2rem;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.1rem;
 
     @mixin 4Small {
-      font-size: 4rem;
+      font-size: 2.2rem;
       max-width: 70rem;
       margin-bottom: 1.7rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @mixin 4Medium {
+      font-size: 2.5rem;
+      max-width: 80rem;
+      margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
     }
@@ -39,13 +46,18 @@
   }
 &__subtitle {
     color: $mnorange;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 0 2rem 0;
 
 
     @mixin 4Small {
-      font-size: 3.8rem;
+      font-size: 2rem;
       margin: 0 0 3rem 0;
+    }
+
+    @mixin 4Medium {
+      font-size: 3rem;
+      margin: 0 0 3.3rem 0;
     }
 
     @mixin 4Large {
