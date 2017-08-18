@@ -2,10 +2,13 @@
   padding: .5rem 0;
 
   @mixin 4Small {
-    padding: 2rem 0;
+    padding: 1.3rem 0;
+  }
+  @mixin 4Medium {
+    padding: 1.6rem 0;
   }
   @mixin 4Large {
     padding: 3rem 0;
   }
-  
+
 }
